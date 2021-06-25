@@ -47,6 +47,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Calculator.cs" />
+    <Compile Include="ForeachLoop\frmForEach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForeachLoop\frmForEach.Designer.cs">
+      <DependentUpon>frmForEach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForeachLoop\Student.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -55,6 +62,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ForeachLoop\frmForEach.resx">
+      <DependentUpon>frmForEach.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
