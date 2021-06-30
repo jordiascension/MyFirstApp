@@ -86,6 +86,9 @@ namespace MyFirstApp.ForLoop
             this.Controls.Add(this.btnSave);
             this.Name = "frmForLoop";
             this.Text = "frmForLoop";
+
+            this.Load += new System.EventHandler(this.frmForLoop_Load);
+
             this.ResumeLayout(false);
             this.PerformLayout();
 
