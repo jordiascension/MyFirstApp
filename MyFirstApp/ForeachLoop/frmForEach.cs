@@ -19,6 +19,7 @@ namespace MyFirstApp.ForeachLoop
             student.Surname = txtSurname.Text;
             student.Age = Convert.ToInt32(txtAge.Text);
 
+
             var studentList = new ArrayList(); // recommended 
             //Boxing-Polymorphism
             studentList.Add(student);

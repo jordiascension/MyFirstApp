@@ -94,6 +94,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WhileLoop\frmWhile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WhileLoop\frmWhile.Designer.cs">
+      <DependentUpon>frmWhile.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="ForeachLoop\frmForEach.resx">
       <DependentUpon>frmForEach.cs</DependentUpon>
     </EmbeddedResource>
@@ -109,6 +115,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="WhileLoop\frmWhile.resx">
+      <DependentUpon>frmWhile.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

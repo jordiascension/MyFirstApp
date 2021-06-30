@@ -39,6 +39,9 @@ namespace MyFirstApp.ForLoop
                 MessageBox.Show(studentList[i].Name +
                                  " " + studentList[i].Surname);
             }
+
+            MessageBox.Show("El número de estudiantes es : " +
+                Student.STUDENT_COUNTER);
         }
     }
 }
