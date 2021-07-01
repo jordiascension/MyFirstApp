@@ -13,8 +13,8 @@ namespace MyFirstApp.Inheritance
         }
 
         public Teacher(string subject, float salary,
-            string name, string surname
-            ) : base(name, surname)
+                       string name, string surname
+                      ) : base(name, surname)
         {
             Subject = subject;
             Salary = salary;
