@@ -92,6 +92,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Inheritance\frmTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inheritance\frmTeacher.Designer.cs">
+      <DependentUpon>frmTeacher.cs</DependentUpon>
+    </Compile>
     <Compile Include="Inheritance\Person.cs" />
     <Compile Include="Inheritance\Teacher.cs" />
     <Compile Include="Program.cs" />
@@ -107,6 +113,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ForLoop\frmForLoop.resx">
       <DependentUpon>frmForLoop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inheritance\frmTeacher.resx">
+      <DependentUpon>frmTeacher.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
